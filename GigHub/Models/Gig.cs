@@ -5,7 +5,7 @@ namespace GigHub.Models
 {
     public class Gig
     {
-        public int Id { get; set;  }
+        public int Id { get; set; }
 
         public ApplicationUser Artist { get; set; }
 
@@ -22,6 +22,5 @@ namespace GigHub.Models
 
         [Required]
         public byte GenreId { get; set; }
-
     }
 }
