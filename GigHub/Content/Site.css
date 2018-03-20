@@ -24,12 +24,12 @@ textarea {
     max-width: 280px;
 }
 
-.form-group > input.input-validation-error {
+.form-group > input-validation-error {
     border-radius: 8px 8px 0 0;
     border-bottom: none;
 }
 
-span.field-validation-error {
+.field-validation-error {
     background-color: #FF4342;
     border-radius: 0 0 8px 8px;
     color: white;
@@ -57,6 +57,7 @@ span.field-validation-error {
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #CD2827;
     background-color: rgba(205, 40, 39, 0.55);
 }
 
