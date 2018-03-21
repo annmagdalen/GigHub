@@ -148,6 +148,7 @@ h6,
 .gigs > li .details {
     display: flex;
     flex-direction: column;
+    margin-right: 24px;
 }
 
 .gigs > li .artist {
