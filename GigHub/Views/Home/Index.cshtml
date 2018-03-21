@@ -23,7 +23,7 @@
                 @gig.Genre.Name
             </span>
         </div>
-        <button class="btn btn-default btn-sm">Going?</button>
+        <button data-gig-id="@gig.Id" class="btn btn-default btn-sm js-toggle-attendance">Going?</button>
     </li>
     }
 </ul>
@@ -46,7 +46,5 @@
                     })
             })
         })
-
-
     </script>
 }
